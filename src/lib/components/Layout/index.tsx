@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 // import { Outlet } from "react-router-dom"
-  //creo que toca cambiarlo por link 
 
 import { Footer, Header } from "../index"
 import { If } from "../../helpers"

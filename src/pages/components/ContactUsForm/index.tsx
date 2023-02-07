@@ -6,7 +6,7 @@ import { If } from "../../../lib/helpers"
 import { ContactUsFormStyled } from "./style"
 import contactBackground from "../../../assets/images/contact-background.webp"
 import { formatCPF, formatPhoneNumber, validationCPF, validationPhoneNumber } from "./helpers"
-import { config } from "../../config"
+import { config } from "../../config" //falla
 import Image from "next/image"
 
 

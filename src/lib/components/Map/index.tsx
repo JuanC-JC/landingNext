@@ -28,7 +28,8 @@ const GMap = memo(({ data, height = "100%" }: IGmap) => {
   }, [firstRender])
 
   const apiConfig = useMemo(() => ({
-    googleMapsApiKey: import.meta.env.VITE_APP_GOOGLE_MAPS_KEY as string,
+    googleMapsApiKey: process.env.VITE_APP_GOOGLE_MAPS_KEY as string,
+    // googleMapsApiKey: import.meta.env.VITE_APP_GOOGLE_MAPS_KEY as string,
     libraries: googleMapsLibraries
   }), [])
 
